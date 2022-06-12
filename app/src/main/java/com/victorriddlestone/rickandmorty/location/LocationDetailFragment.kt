@@ -117,14 +117,13 @@ class LocationDetailFragment : Fragment() {
                         tvLocDetErr.visibility = View.GONE
                     }
                 } else {
-                    Toast.makeText(context, "Error de red. No se han podido cargar los detalles", Toast.LENGTH_SHORT).show()
                     tvLocDetErr.visibility = View.VISIBLE
                 }
             }
 
             override fun onFailure(call: Call<SingleLocation>, t: Throwable) {
-                Toast.makeText(context, "Error de red. No se han podido cargar los detalles", Toast.LENGTH_SHORT).show()
                 tvLocDetErr.visibility = View.VISIBLE
+                progressBar.visibility = View.GONE
             }
 
         })

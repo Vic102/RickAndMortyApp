@@ -115,14 +115,13 @@ class EpisodeDetailsFragment : Fragment() {
                         tvEpiDetErr.visibility = View.GONE
                     }
                 } else {
-                    Toast.makeText(context, "Error de red. No se han podido cargar los detalles", Toast.LENGTH_SHORT).show()
                     tvEpiDetErr.visibility = View.VISIBLE
                 }
             }
 
             override fun onFailure(call: Call<SingleEpisode>, t: Throwable) {
-                Toast.makeText(context, "Error de red. No se han podido cargar los detalles", Toast.LENGTH_SHORT).show()
                 tvEpiDetErr.visibility = View.VISIBLE
+                progressBar.visibility = View.GONE
             }
         })
 

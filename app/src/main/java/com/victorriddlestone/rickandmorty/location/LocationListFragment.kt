@@ -7,10 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ProgressBar
 import android.widget.TextView
-import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.snackbar.Snackbar
 import com.victorriddlestone.rickandmorty.R
 import com.victorriddlestone.rickandmorty.network.RickAndMortyService
 import retrofit2.Call
@@ -67,15 +67,17 @@ class LocationListFragment : Fragment() {
                     progressBar.visibility = View.GONE
                     tvLocationListErr.visibility = View.GONE
                 } else {
-                    Toast.makeText(context, "Error de red. No se ha podido cargar la lista", Toast.LENGTH_SHORT).show()
                     tvLocationListErr.visibility = View.VISIBLE
+                    //Snackbar.make(view, "Unable to load the list", Snackbar.LENGTH_SHORT).show()
                 }
 
             }
 
             override fun onFailure(call: Call<LocationResponse>, t: Throwable) {
-                Toast.makeText(context, "Error de red. No se ha podido cargar la lista", Toast.LENGTH_SHORT).show()
+                progressBar.visibility = View.GONE
                 tvLocationListErr.visibility = View.VISIBLE
+                //No estoy seguro de si esto o el TextView en medio de la pantalla
+                //Snackbar.make(view, "${t.message}", Snackbar.LENGTH_SHORT).show()
             }
         })
 

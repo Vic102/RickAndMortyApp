@@ -65,14 +65,13 @@ class EpisodeListFragment : Fragment() {
                     progressBar.visibility = View.GONE
                     tvEpisodeListErr.visibility = View.GONE
                 } else {
-                    Toast.makeText(context, "Error de red. No se ha podido cargar la lista", Toast.LENGTH_SHORT).show()
                     tvEpisodeListErr.visibility = View.VISIBLE
                 }
             }
 
             override fun onFailure(call: Call<EpisodesResponse>, t: Throwable) {
-                Toast.makeText(context, "Error de red. No se ha podido cargar la lista", Toast.LENGTH_SHORT).show()
                 tvEpisodeListErr.visibility = View.VISIBLE
+                progressBar.visibility = View.GONE
             }
 
         })

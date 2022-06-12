@@ -85,16 +85,13 @@ class CharacterDetailsFragment : Fragment() {
                     progressBar.visibility = View.GONE
                     characterDetErr.visibility = View.GONE
                 } else {
-                    Log.d("VRA", "No funciona response")
-                    Toast.makeText(context, "Error de red", Toast.LENGTH_SHORT).show()
                     characterDetErr.visibility = View.VISIBLE
                 }
             }
 
             override fun onFailure(call: Call<SingleCharacter>, t: Throwable) {
-                Log.d("VRA", "no funciona")
-                Toast.makeText(context, "Error de red", Toast.LENGTH_SHORT).show()
                 characterDetErr.visibility = View.VISIBLE
+                progressBar.visibility = View.GONE
             }
         })
 
