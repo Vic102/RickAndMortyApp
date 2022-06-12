@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status">Estado</string>
+    <string name="species" >Especie</string>
+    <string name="type">Tipo</string>
+    <string name="gender">Género</string>
+    <string name="characters">Personajes</string>
+    <string name="episodes">Episodios</string>
+    <string name="episode">Episodio</string>
+    <string name="name">Nombre</string>
+    <string name="created" >Creado el</string>
+    <string name="air_date" >Fecha de estreno</string>
+    <string name="location">Ubicación</string>
+    <string name="dimensions">Dimensión</string>
+    <string name="residents">Residentes</string>
+    <string name="characterErr" >Lo sentimos, la lista de personajes no se pudo cargar</string>
+    <string name="charDetailsErr" >Lo sentimos, los detalles del personaje no se pudieron cargar</string>
+    <string name="episodeListErr" >Lo sentimos, no se pudo cargar la lista de episodios</string>
+    <string name="episodeDetErr" >Lo sentimos, los detalles del episodio no se pudieron cargar</string>
+    <string name="locationListErr" >Lo sentimos, no se pudo cargar la lista de ubicaciones</string>
+    <string name="locationDetErr" >Lo sentimos, los detalles de la ubicación no se pudieron cargar</string>
+</resources>

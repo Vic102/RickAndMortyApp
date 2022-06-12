@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.3813405797101449" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24119262695312502" />
+        <entry key="app/src/main/res/layout/fragment_character_details.xml" value="0.3763427734375" />
+        <entry key="app/src/main/res/layout/fragment_character_list.xml" value="0.277581787109375" />
+        <entry key="app/src/main/res/layout/fragment_episode_details.xml" value="0.36538669752038044" />
+        <entry key="app/src/main/res/layout/fragment_episode_list.xml" value="0.4010162353515626" />
+        <entry key="app/src/main/res/layout/fragment_location_detail.xml" value="0.29886474609375" />
+        <entry key="app/src/main/res/layout/fragment_location_list.xml" value="0.3962559133336164" />
+        <entry key="app/src/main/res/layout/item_character.xml" value="0.36820652173913043" />
+        <entry key="app/src/main/res/layout/item_episode.xml" value="0.4547271728515625" />
+        <entry key="app/src/main/res/layout/item_location.xml" value="0.27809884207589286" />
+        <entry key="app/src/main/res/menu/menu_navigation.xml" value="0.40260416666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

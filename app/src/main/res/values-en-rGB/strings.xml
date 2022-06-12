@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status">Status</string>
+    <string name="species">Species</string>
+    <string name="type">Type</string>
+    <string name="gender">Gender</string>
+    <string name="characters">Characters</string>
+    <string name="episodes">Episodes</string>
+    <string name="episode">Episode</string>
+    <string name="name">Name</string>
+    <string name="created" >Created At</string>
+    <string name="air_date" >Air Date</string>
+    <string name="location">Locations</string>
+    <string name="dimensions">Dimension</string>
+    <string name="residents">Residents</string>
+    <string name="characterErr" >Sorry, the character list was unable to load</string>
+    <string name="charDetailsErr" >Sorry, the character details were unable to load</string>
+    <string name="episodeListErr" >Sorry, the episode list was unable to load</string>
+    <string name="episodeDetErr" >Sorry, the episode details were unable to load</string>
+    <string name="locationListErr" >Sorry, the location list was unable to load</string>
+    <string name="locationDetErr" >Sorry, the location details were unable to load</string>
+</resources>

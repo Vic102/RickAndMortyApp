@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name" translatable="false">VictorRiddlestoneApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="status">Status</string>
+    <string name="species">Species</string>
+    <string name="type">Species</string>
+    <string name="gender">Gender</string>
+    <string name="characters">Characters</string>
+    <string name="episodes">Episodes</string>
+    <string name="episode">Episode</string>
+    <string name="name">Name</string>
+    <string name="created" />
+    <string name="air_date" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="location">Location</string>
+    <string name="dimensions">Dimensions</string>
+    <string name="residents">Residents</string>
+    <string name="characterErr" />
+    <string name="charDetailsErr" />
+    <string name="episodeListErr" />
+    <string name="episodeDetErr" />
+    <string name="locationListErr" />
+    <string name="locationDetErr" />
+</resources>

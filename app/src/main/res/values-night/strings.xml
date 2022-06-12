@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status">Status</string>
+    <string name="species" />
+    <string name="type">Type</string>
+    <string name="gender">Gender</string>
+    <string name="characters">Characters</string>
+    <string name="episodes">Episodes</string>
+    <string name="episode">Episode</string>
+    <string name="name">Name</string>
+    <string name="created" />
+    <string name="air_date" />
+    <string name="location">Location</string>
+    <string name="dimensions">Dimensions</string>
+    <string name="residents">Residents</string>
+    <string name="characterErr" />
+    <string name="charDetailsErr" />
+    <string name="episodeListErr" />
+    <string name="episodeDetErr" />
+    <string name="locationListErr" />
+    <string name="locationDetErr" />
+</resources>
